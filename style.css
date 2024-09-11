@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap'); 
+body{ 
+    font-family: 'Montserrat', sans-serif; 
+    background-image: url("https://preview.redd.it/why-do-you-thin-bill-cipher-works-so-well-and-is-such-a-v0-p1y5lolth7lc1.jpeg?auto=webp&s=6f8dfebe7ebf9db6a5c701f51f56ff085d04c344")
+    ;
+    color: rgb(223, 39, 39);
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body:hover{
+    background-color: rgb(255, 238, 0);
+}
+
+.main {
+    display: none;
+}
+
+
+.question {
+    font-size: 50px;
+    border: 4px solid black;
+    background-color: rgb(175, 164, 12);
+    padding: 15px;
+}
+
+
+.ans-row {
+    padding: 1em;
+    box-sizing: border-box;
+    display: flex;
+}
+
+
+.answer {
+    border: 3px dashed black;
+    border-radius: 5px;
+    width: 150px; height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    margin: .5em;
+    cursor: pointer;
+    background-color: yellow;
+    font-size: 21px;
+}
+
+
+
+  
+
+
+
+.container_h3{
+    margin-bottom: 10px;
+}
+
+
+.start-btn {
+    font-size: 40px;
+    padding: .5em;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(255, 187, 0);
+
+}
+
+
+.start-btn:hover {
+    background: rgb(255, 219, 16);
+}
